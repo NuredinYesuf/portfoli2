@@ -51,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>L I have worked on a range of multimedia applications that blend functionality with engaging user experiences. Some of the projects I’ve been part of include a fitness tracking application that helps users monitor their workouts, progress, and goals through interactive dashboards and smart recommendations. I have also contributed to the development of several blogging platforms and content-focused mobile applications, focusing on delivering clean, intuitive, and responsive interfaces using both React Native and Flutter. These projects allowed me to combine creativity with technical skills to build apps that not only work well but also feel great to use.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

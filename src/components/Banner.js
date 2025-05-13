@@ -57,7 +57,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                {/* // <span className="tagline">Welcome to my Portfolio</span> */}
                 <h1>{`Hi! I'm Nuredin Yesuf`} <span className="txt-rotate" dataPeriod="000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p> I am a passionate and versatile Software Engineer with a deep interest in AI and multimedia technologies. Over the years, I have worked on several AI-driven projects, blending machine learning and computer vision into real-world applications that solve practical problems. My journey in web development has taken me through both the MERN and PERN stacks, where I’ve built dynamic, scalable, and user-centric web applications. I also have hands-on experience in mobile app development using React Native and Flutter, allowing me to create seamless cross-platform experiences. I love bringing ideas to life, especially when it involves multimedia applications that push the boundaries of user engagement and interaction. For me, technology is not just about code—it's about creating impactful solutions that connect people and make everyday experiences smarter and more intuitive.
+
+</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
